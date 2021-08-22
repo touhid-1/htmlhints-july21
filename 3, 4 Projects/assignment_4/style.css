@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding:10px;
+}
+:root{
+    --first-color: #a9cbcc;  
+    --second-color: #e8f7f7; 
+    --third-color: #e9ed09
+}
+
+body{
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center; 
+    align-items: center;
+    
+}
+   
+
+header{
+    background-color: var(--first-color);
+    height: 13vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 80vw;
+}
+main{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--second-color);
+    width: 80vw;
+
+   
+}
+.first_align{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    width: 80vw;
+    
+}
+
+.hero{
+    height: 173px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 29vw;
+    background-color: var(--first-color);
+}
+.call1{
+    margin-top: 11px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 52px;
+    background-color: var(--third-color);
+}
+.intro{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 43vw;
+    background-color: var(--first-color);
+    height: 255px;
+
+}
+
+
+.features{
+    background-color: var(--first-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 76vw;
+}
+.second_align{
+    margin-top: 9px;
+    width: 80vw;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.more{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 43vw;
+    background-color: var(--first-color);
+    height: 8vh;
+}
+.call2{
+    height: 8vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 30vw;
+    background-color: var(--third-color);
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--first-color);
+    height: 10vh;
+    width: 80vw;
+
+}
